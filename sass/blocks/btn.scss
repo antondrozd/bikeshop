@@ -1,9 +1,12 @@
 .btn {
   display: inline-block;
+  padding: 15px 27px;
+  border-radius: 9px;
   font-size: 12px;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+  background-color: #b7b7b7;
   transition: all 0.3s;
   &--dark {
     background-color: #000;
@@ -11,6 +14,16 @@
     &:hover {
       background-color: #fff;
       color: #000;
+    }
+  }
+  &--transparent {
+    padding: 10px 21px;
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+    &:hover {
+      color: #fcff19;
+      border-color: #fcff19;
     }
   }
 }
