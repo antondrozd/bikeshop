@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  &--dark {
+    background-color: #000;
+    color: #fcff19;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
