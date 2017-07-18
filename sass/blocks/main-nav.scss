@@ -31,10 +31,11 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
+    border-radius: 9px;
+    transition: all 0.2s;
     &:hover {
       color: #000;
       background-color: #fcff19;
-      border-radius: 9px;
     }
   }
   &--drop {

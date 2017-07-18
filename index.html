@@ -58,61 +58,69 @@
           </div>
         </section>
         <section class="popular">
-          <h2 class="popular__title"></h2>
+          <h2 class="popular__title">Popular bikes</h2>
           <ul class="popular__list">
             <li class="popular__item">
               <img class="popular__img" src="img/fixed_gear.jpg" alt="popular-bike">
-              <span class="popular__name">Fixed Gear</span>
-              <span class="popular__price">$249.00</span>
+              <div class="popular__inner">
+                <span class="popular__name">Fixed Gear</span>
+                <span class="popular__price">$249.00</span>
+              </div>
               <select class="popular__option">
-                <option>Option</option>
-                <option>Option</option>
-                <option>Option</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
               </select>
-              <a class="btn" href="#">Buy</a>
+              <a class="popular__btn  btn" href="#">Buy</a>
             </li>
             <li class="popular__item">
               <img class="popular__img" src="img/big_boy_ultra.jpg" alt="popular-bike">
-              <span class="popular__name">Big Boy Ultra</span>
-              <span class="popular__price">$249.00</span>
+              <div class="popular__inner">
+                <span class="popular__name">Big Boy Ultra</span>
+                <span class="popular__price">$249.00</span>
+              </div>
               <select class="popular__option">
-                <option>Option</option>
-                <option>Option</option>
-                <option>Option</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
               </select>
-              <a class="btn" href="#">Buy</a>
+              <a class="popular__btn  btn" href="#">Buy</a>
             </li>
             <li class="popular__item">
               <img class="popular__img" src="img/sanchaez.jpg" alt="popular-bike">
-              <span class="popular__name">Sanchaez</span>
-              <span class="popular__price">$249.00</span>
+              <div class="popular__inner">
+                <span class="popular__name">Sanchaez</span>
+                <span class="popular__price">$249.00</span>
+              </div>
               <select class="popular__option">
-                <option>Option</option>
-                <option>Option</option>
-                <option>Option</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
               </select>
-              <a class="btn" href="#">Buy</a>
+              <a class="popular__btn  btn" href="#">Buy</a>
             </li>
           </ul>
         </section>
         <section class="contact">
-          <h2 class="contact__title">Contact us</h2>
-          <form class="contact__form" action="" method="post">
-            <p class="contact__text">Please contact us for all inquiries and purchase options.</p>
-            <div class="field-wrapper">
-              <input type="text" name="name" placeholder="Name">
-            </div>
-            <div class="field-wrapper">
-              <input type="text" name="surname" placeholder="Surname">
-            </div>
-            <div class="field-wrapper">
-              <input type="email" name="email" placeholder="user@domain.com">
-            </div>
-            <div class="field-wrapper">
-              <textarea name="message" rows="8" cols="80" placeholder="Message"></textarea>
-            </div>
-            <button class="btn" type="submit">Send</button>
-          </form>
+          <div class="contact__wrapper">
+            <h2 class="contact__title">Contact us</h2>
+            <form class="contact__form" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="contact__text">Please contact us for all inquiries and purchase options.</p>
+              <div class="field-wrapper  field-wrapper--sm">
+                <input type="text" name="name" placeholder="Name" required>
+              </div>
+              <div class="field-wrapper  field-wrapper--sm">
+                <input type="text" name="surname" placeholder="Surname">
+              </div>
+              <div class="field-wrapper">
+                <input type="email" name="email" placeholder="user@domain.com" required>
+              </div>
+              <div class="field-wrapper">
+                <textarea name="message" placeholder="Message" required></textarea>
+              </div>
+              <button class="contact__btn  btn" type="submit">Send</button>
+            </form>
+          </div>
         </section>
       </main>
       <footer class="page-footer">

@@ -1,0 +1,40 @@
+.field-wrapper {
+  width: 100%;
+  margin-bottom: 17px;
+  > * {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 13px;
+    font-family: $main-font;
+    font-size: 12px;
+    border: 1px solid #dadada;
+    border-radius: 9px;
+    &::-webkit-input-placeholder {
+      font-style: italic;
+      text-transform: uppercase;
+      color: #808080;
+    }
+    &::-moz-placeholder {
+      font-style: italic;
+      text-transform: uppercase;
+      color: #808080;
+    }
+    &:-moz-placeholder {
+      font-style: italic;
+      text-transform: uppercase;
+      color: #808080;
+    }
+    &:-ms-input-placeholder {
+      font-style: italic;
+      text-transform: uppercase;
+      color: #808080;
+    }
+  }
+  > textarea {
+    min-height: 155px;
+  }
+  &--sm {
+    width: 47%;
+  }
+}
