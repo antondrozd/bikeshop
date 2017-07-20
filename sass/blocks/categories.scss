@@ -28,8 +28,11 @@
 
 .categories__item {
   position: relative;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   width: 350px;
+  padding: 0 15px;
   padding-top: 133px;
   padding-bottom: 40px;
   text-align: center;
@@ -55,6 +58,7 @@
     height: 100%;
     background-image: url("../img/hover-filter.svg");
     background-repeat: no-repeat;
+    background-position: left bottom;
     opacity: 0;
     transition: all 0.3s;
     z-index: 1;
@@ -86,6 +90,26 @@
 }
 
 .categories__btn {
+  align-self: center;
+  margin-top: auto;
   opacity: 0;
   transition: all 0.2s;
+}
+
+@media #{$tablet-widths} {
+
+  .categories__item {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    margin: 0 10px;
+    &::before {
+      display: none;
+    }
+  }
+
+  .categories__btn {
+    opacity: 1;
+  }
+
 }

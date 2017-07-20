@@ -104,3 +104,28 @@
     }
   }
 }
+
+@media #{$tablet-widths} {
+
+  .main-nav__item {
+    a {
+      color: #000;
+      &:hover {
+        color: #dd0034;
+      }
+    }
+    &--drop {
+      > a {
+        &::after {
+          content: "▼";
+        }
+      }
+    }
+    &--basket {
+      a {
+        background-image: url("../img/basket-icon-dark.png");
+      }
+    }
+  }
+
+}

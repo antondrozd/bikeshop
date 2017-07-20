@@ -1,4 +1,4 @@
-.page-header {
+.page-header__wrapper {
   @include wrapper;
   position: absolute;
   left: 50%;
@@ -8,4 +8,20 @@
   align-items: center;
   padding-top: 21px;
   z-index: 10;
+}
+
+@media #{$tablet-widths} {
+
+  .page-header {
+    background-color: #fcff19;
+  }
+
+  .page-header__wrapper {
+    position: relative;
+    left: auto;
+    transform: none;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
 }

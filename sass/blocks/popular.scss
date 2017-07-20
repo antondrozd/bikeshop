@@ -60,3 +60,16 @@
 .popular__btn {
   margin-left: 10px;
 }
+
+@media #{$tablet-widths} {
+
+  .popular__list {
+    flex-wrap: wrap;
+  }
+
+  .popular__item {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+}
