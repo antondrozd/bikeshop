@@ -10,23 +10,28 @@
   <body>
     <div class="page-wrapper">
       <header class="page-header" id="head">
-        <div class="logo">
-          <a><img src="img/logo.png" alt="logo"></a>
+        <div class="page-header__wrapper">
+          <div class="logo">
+            <a><picture>
+              <source media="(max-width: 1200px)" srcset="img/logo-dark.png">
+              <img src="img/logo.png" alt="logo">
+            </picture></a>
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav__list">
+              <li class="main-nav__item  main-nav__item--drop"><a href="#">Bicycles</a>
+                <ul class="main-nav__drop-list">
+                  <li class="main-nav__drop-item"><a href="#">Fixed / Single speed</a></li>
+                  <li class="main-nav__drop-item"><a href="#">City bikes</a></li>
+                  <li class="main-nav__drop-item"><a href="#">Premium series</a></li>
+                </ul></li>
+              <li class="main-nav__item"><a href="#">Parts</a></li>
+              <li class="main-nav__item"><a href="#">Accessories</a></li>
+              <li class="main-nav__item"><a href="#">Extras</a></li>
+              <li class="main-nav__item  main-nav__item--basket"><a href="#"></a></li>
+            </ul>
+          </nav>
         </div>
-        <nav class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__item  main-nav__item--drop"><a href="#">Bicycles</a>
-              <ul class="main-nav__drop-list">
-                <li class="main-nav__drop-item"><a href="#">Fixed / Single speed</a></li>
-                <li class="main-nav__drop-item"><a href="#">City bikes</a></li>
-                <li class="main-nav__drop-item"><a href="#">Premium series</a></li>
-              </ul></li>
-            <li class="main-nav__item"><a href="#">Parts</a></li>
-            <li class="main-nav__item"><a href="#">Accessories</a></li>
-            <li class="main-nav__item"><a href="#">Extras</a></li>
-            <li class="main-nav__item  main-nav__item--basket"><a href="#"></a></li>
-          </ul>
-        </nav>
       </header>
       <main class="page-content">
         <section class="slider">
