@@ -17,10 +17,11 @@
               <img src="img/logo.png" alt="logo">
             </picture></a>
           </div>
-          <nav class="main-nav">
+          <nav class="main-nav  main-nav--closed  main-nav--nojs">
+            <button class="main-nav__toggle" type="button"></button>
             <ul class="main-nav__list">
               <li class="main-nav__item  main-nav__item--drop"><a href="#">Bicycles</a>
-                <ul class="main-nav__drop-list">
+                <ul class="main-nav__drop-list  main-nav__drop-list--closed">
                   <li class="main-nav__drop-item"><a href="#">Fixed / Single speed</a></li>
                   <li class="main-nav__drop-item"><a href="#">City bikes</a></li>
                   <li class="main-nav__drop-item"><a href="#">Premium series</a></li>
@@ -28,7 +29,7 @@
               <li class="main-nav__item"><a href="#">Parts</a></li>
               <li class="main-nav__item"><a href="#">Accessories</a></li>
               <li class="main-nav__item"><a href="#">Extras</a></li>
-              <li class="main-nav__item  main-nav__item--basket"><a href="#"></a></li>
+              <li class="main-nav__item  main-nav__item--basket"><a href="#">Basket</a></li>
             </ul>
           </nav>
         </div>
@@ -37,7 +38,7 @@
         <section class="slider">
           <h1 class="slider__title">Handmade bicycle</h1>
           <p class="slider__text">You <span class="yellow-text">create</span> the <span class="yellow-text">journey</span>, we supply the <span class="yellow-text">parts.</span></p>
-          <a class="btn  btn--dark" href="#">Shop bikes</a>
+          <a class="slider__btn  btn  btn--dark" href="#">Shop bikes</a>
           <a class="slider__scroll-btn" href="#categories"></a>
         </section>
         <section class="categories" id="categories">
@@ -71,7 +72,7 @@
                 <span class="popular__name">Fixed Gear</span>
                 <span class="popular__price">$249.00</span>
               </div>
-              <select class="popular__option">
+              <select class="popular__options">
                 <option>Option 1</option>
                 <option>Option 2</option>
                 <option>Option 3</option>
@@ -84,7 +85,7 @@
                 <span class="popular__name">Big Boy Ultra</span>
                 <span class="popular__price">$249.00</span>
               </div>
-              <select class="popular__option">
+              <select class="popular__options">
                 <option>Option 1</option>
                 <option>Option 2</option>
                 <option>Option 3</option>
@@ -97,7 +98,7 @@
                 <span class="popular__name">Sanchaez</span>
                 <span class="popular__price">$249.00</span>
               </div>
-              <select class="popular__option">
+              <select class="popular__options">
                 <option>Option 1</option>
                 <option>Option 2</option>
                 <option>Option 3</option>
@@ -130,10 +131,10 @@
       </main>
       <footer class="page-footer">
         <div class="page-footer__wrapper">
-          <div class="logo">
+          <div class="logo  logo--footer">
             <a href="#head"><img src="img/logo-dark.png" alt="logo"></a>
           </div>
-          <nav class="main-nav  main-nav--dark">
+          <nav class="main-nav  main-nav--dark  main-nav--footer">
             <ul class="main-nav__list">
               <li class="main-nav__item"><a href="#">Bicycles</a></li>
               <li class="main-nav__item"><a href="#">Parts</a></li>
