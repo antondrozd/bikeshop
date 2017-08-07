@@ -4,7 +4,7 @@ body {
   font-family: $main-font;
   background-color: #fff;
   color: #000;
-  > svg {
+  + svg {
     display: none;
   }
 }
@@ -16,4 +16,12 @@ img {
 
 .yellow-text {
   color: #fcff19;
+}
+
+@media #{$tablet-widths} {
+
+  body {
+    display: block;
+  }
+  // for css-mqpacker "first-win strategy"
 }

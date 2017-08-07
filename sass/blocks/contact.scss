@@ -31,6 +31,7 @@
 
 .contact__text {
   width: 100%;
+  margin: 0;
   margin-bottom: 45px;
   font-size: 15px;
   text-align: center;
@@ -38,4 +39,22 @@
 
 .contact__btn {
   width: 100%;
+}
+
+@media #{$mobile-widths} {
+
+  .contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .contact__title {
+    margin-bottom: 15px;
+    font-size: 23px;
+  }
+
+  .contact__form {
+    width: 75%;
+  }
+
 }

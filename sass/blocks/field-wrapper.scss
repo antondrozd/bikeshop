@@ -38,3 +38,13 @@
     width: 47%;
   }
 }
+
+@media #{$mobile-widths} {
+
+  .field-wrapper {
+    &--sm {
+      width: 100%;
+    }
+  }
+
+}

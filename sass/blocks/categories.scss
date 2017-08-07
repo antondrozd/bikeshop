@@ -79,6 +79,7 @@
   margin: 0;
   margin-bottom: 5px;
   font-size: 15px;
+  font-weight: bold;
   text-transform: uppercase;
   color: #fcff19;
 }
@@ -86,6 +87,8 @@
 .categories__text {
   margin: 0;
   margin-bottom: 23px;
+  font-size: 16px;
+  font-weight: 200;
   color: #fff;
 }
 
@@ -101,7 +104,7 @@
   .categories__item {
     padding-top: 45px;
     padding-bottom: 25px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 0 10px;
     &::before {
       display: none;
@@ -110,6 +113,33 @@
 
   .categories__btn {
     opacity: 1;
+  }
+
+}
+
+@media #{$mobile-widths} {
+
+  .categories {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .categories__title {
+    margin-bottom: 30px;
+    font-size: 23px;
+  }
+
+  .categories__list {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .categories__item {
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 10px 0;
+    border-radius: 0;
   }
 
 }

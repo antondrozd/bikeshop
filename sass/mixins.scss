@@ -38,3 +38,9 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+@mixin max-font-size($size) {
+  @media (min-height: 700px) {
+    font-size: $size;
+  }
+}

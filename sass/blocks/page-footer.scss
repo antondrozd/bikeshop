@@ -9,3 +9,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media #{$mobile-widths} {
+
+  .page-footer__wrapper {
+    flex-wrap: wrap;
+  }
+
+}

@@ -20,8 +20,18 @@
     position: relative;
     left: auto;
     transform: none;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+  }
+
+}
+
+@media #{$mobile-widths} {
+
+  .page-header__wrapper {
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 0;
   }
 
 }

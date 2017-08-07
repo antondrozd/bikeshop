@@ -46,12 +46,13 @@
   font-weight: 200;
 }
 
-.popular__option {
+.popular__options {
   min-width: 145px;
   font-family: $main-font;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+  background-color: #fff;
   border: 1px solid #8f8f8f;
   border-radius: 9px;
   cursor: pointer;
@@ -64,12 +65,43 @@
 @media #{$tablet-widths} {
 
   .popular__list {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .popular__item {
     width: 65%;
     margin: 0 auto;
+  }
+
+}
+
+@media #{$mobile-widths} {
+
+  .popular__title {
+    margin-bottom: 30px;
+    font-size: 23px;
+  }
+
+  .popular__item {
+    width: 75%;
+  }
+
+  .popular__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .popular__options {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+
+  .popular__btn {
+    width: 100%;
+    margin-left: 0;
   }
 
 }

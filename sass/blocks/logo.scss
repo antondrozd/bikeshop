@@ -1,3 +1,24 @@
-.logo {
-  flex-shrink: 0;
+@media #{$tablet-widths} {
+
+  .logo {
+    a {
+      max-height: 7vh;
+    }
+  }
+
+}
+
+@media #{$mobile-widths} {
+
+  .logo {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    &--footer {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+
 }
