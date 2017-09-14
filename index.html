@@ -8,20 +8,18 @@
     <title>BikeShop</title>
   </head>
   <body>
-    <div class="page-wrapper">
+    <div class="page-wrapper  page-wrapper--nav-closed">
       <header class="page-header" id="head">
         <div class="page-header__wrapper">
           <div class="logo">
-            <a><picture>
-              <source media="(max-width: 1200px)" srcset="img/logo-dark.png">
-              <img src="img/logo.png" alt="logo">
-            </picture></a>
+            <a><img src="img/logo.png" alt="logo"></a>
           </div>
           <nav class="main-nav  main-nav--closed  main-nav--nojs">
             <button class="main-nav__toggle" type="button"></button>
             <ul class="main-nav__list">
-              <li class="main-nav__item  main-nav__item--drop"><a href="#">Bicycles</a>
-                <ul class="main-nav__drop-list  main-nav__drop-list--closed">
+              <li class="main-nav__item  main-nav__item--with-drop"><a href="#">Bicycles</a>
+                <button class="main-nav__drop-toggle  main-nav__drop-toggle--down" type="button">▼</button>
+                <ul class="main-nav__drop-list">
                   <li class="main-nav__drop-item"><a href="#">Fixed / Single speed</a></li>
                   <li class="main-nav__drop-item"><a href="#">City bikes</a></li>
                   <li class="main-nav__drop-item"><a href="#">Premium series</a></li>
@@ -134,7 +132,7 @@
           <div class="logo  logo--footer">
             <a href="#head"><img src="img/logo-dark.png" alt="logo"></a>
           </div>
-          <nav class="main-nav  main-nav--dark  main-nav--footer">
+          <nav class="main-nav  main-nav--dark">
             <ul class="main-nav__list">
               <li class="main-nav__item"><a href="#">Bicycles</a></li>
               <li class="main-nav__item"><a href="#">Parts</a></li>

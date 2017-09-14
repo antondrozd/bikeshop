@@ -1,3 +1,5 @@
 $main-font: "Roboto", "Tahoma", sans-serif;
 $mobile-widths: "(max-width: 767px)";
 $tablet-widths: "(max-width: 1199px)";
+$desktop-widths-only: "(min-width: 1200px)";
+$tablet-widths-only: "(min-width: 768px) and (max-width: 1199px)";

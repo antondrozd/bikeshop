@@ -1,0 +1,22 @@
+@media #{$tablet-widths-only} {
+
+  .page-wrapper {
+    position: relative;
+    width: 100%;
+    transition: all .3s;
+    &--nav-opened {
+      transform: translateX(-250px);
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(#000, 0.7);
+        transition: all .3s;
+      }
+    }
+  }
+
+}
