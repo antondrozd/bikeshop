@@ -1,8 +1,10 @@
 .slider {
   position: relative;
   box-sizing: border-box;
-  min-height: 980px;
-  padding-top: 397px;
+  // min-height: 980px;
+  min-height: 100vh;
+  // padding-top: 397px;
+  padding-top: 35vh;
   text-align: center;
   background-color: #3f1d12;
   background-image: url("../img/bike-bg.jpg");
@@ -33,8 +35,8 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 33px;
-  width: 66px;
-  height: 77px;
+  width: 56px;
+  height: 65px;
   background-image: url("../img/scroll-icon.png");
   background-repeat: no-repeat;
   background-position: center;
